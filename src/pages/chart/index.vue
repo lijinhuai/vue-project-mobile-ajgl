@@ -91,6 +91,35 @@ export default {
 }
 </script>
 
+<style scoped>
+.card {
+  margin: 0 0 5px 0;
+  padding: 0 0 10px 0;
+}
+
+.chart-title {
+  background: url("~@/assets/title.jpg") no-repeat center #67c6f6;
+  height: 90px;
+  background-size: contain;
+}
+
+.form-control {
+  border: 1px solid #ccc !important;
+  border-radius: 0.25rem !important;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s !important;
+}
+
+
+
+
+/*.tabbar a,
+.tabbar a:hover,
+.tabbar a:focus {
+  text-decoration: none;
+}*/
+</style>
+
+
 <style>
 /* Your app custom files in this file */
 
@@ -115,55 +144,5 @@ i.tabbar-demo-icon-2 {
 
 .active i.tabbar-demo-icon-2 {
   background-image: url("data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' viewBox='0 0 25 17' fill='%23007aff'><path d='M19.5,0h-14L0,6v11h25V6L19.5,0z M5.9,1h13.2l4.5,5H16c0,1.9-1.6,3.4-3.5,3.4C10.6,9.4,9,7.9,9,6H1.3L5.9,1z'/></svg>");
-}
-
-.chart-title {
-  background: url("~@/assets/title.jpg") no-repeat center #67c6f6;
-  height: 90px;
-  background-size: contain;
-}
-
-.form-control {
-  border: 1px solid #ccc !important;
-  border-radius: 0.25rem !important;
-  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s !important;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*.tabbar a,
-.tabbar a:hover,
-.tabbar a:focus {
-  text-decoration: none;
-}*/
-
-.card {
-  margin: 0 0 5px 0;
-  padding: 0 0 10px 0;
 }
 </style>
